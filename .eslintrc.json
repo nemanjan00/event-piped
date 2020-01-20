@@ -1,0 +1,41 @@
+{
+    "env": {
+        "es6": true,
+        "node": true,
+        "browser": true,
+        "commonjs": true,
+        "mocha": true
+    },
+    "plugins": [
+      "mocha"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:mocha/recommended"
+    ],
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 6
+    },
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-redeclare": 1,
+        "no-trailing-spaces": "error",
+        "mocha/no-setup-in-describe": 0
+    }
+}

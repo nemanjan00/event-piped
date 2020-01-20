@@ -1,0 +1,12 @@
+# Node modules
+
+/node_modules
+
+/yarn-error.log
+
+# Coverage
+
+/.nyc_output
+
+/coverage
+
